@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'SLEIGothicTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.header {
+    width: 100%;
+    background-color: black;
+    color: #E50914;
+}
+.header * {
+    display: inline-block;
+}
+.header a {
+    margin: 0px;
+    text-decoration: none;
+    color: #E50914;
+}
+.header .input-container {
+    padding-bottom: 20px;
+}
+#logo {
+    margin: 0px;
+    padding: 30px 70px 20px 60px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+}
+.nav-li {
+    margin: 0px;
+    padding: 0px 470px 20px 0px;
+    font-size: 1.2em;
+    font-family: SLEIGothicTTF;
+    color: white;
+}
+.nav-li:hover {
+    color: #E50914
+}
+.search-icon {
+    padding-right: 60px;
+    padding-left: 10px;
+    color: white;
+}
+.search-icon:hover {
+    cursor: pointer;
+}
+input[type=text] {
+    width: 250px;
+    padding: 10px 10px 10px 30px;
+    background-color: #f1f3f5;
+    border-radius: 9999px;
+    border-color: #f1f3f5;
+    border-style: solid;
+    outline-offset: -2px;
+    font-family: SLEIGothicTTF;
+    font-size: 1em;
+}
+input[type=text]:focus {
+    outline:none;
+}

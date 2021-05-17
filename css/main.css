@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'SLEIGothicTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MapoMaponaru';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoMaponaruA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section-basic {
+    width: 100%;
+}
+.article-basic {
+    width: 100%;
+}
+.article-basic h2 {
+    margin: 0px 70px;
+    padding: 40px 0px 20px 0px;
+}
+.article-basic .container-80 {
+    display: inline-block;
+    width: 59%;
+    height: 260px;
+}
+.article-basic .container-20 {
+    display: inline-block;
+    width: 40%;
+    height: 260px;
+}
+.imgDiv {
+    margin: 0px 60px;
+}
+.imgDiv img {
+    padding: 0px 10px;
+    width: 18%;
+    height: 300px;
+}
+.round-container {
+    padding: 50px 30px;
+    border-radius: 50% 20% / 10% 40%;
+    text-align: center;
+}
+.container-80 .round-container {
+    margin: 40px 25px 40px 70px;
+    background-color: #f1f3f5;
+    font-size: 1.7em;
+    font-family: SLEIGothicTTF;
+}
+.container-80 .round-container span {
+    display: inline-block;
+    margin-top: 20px;
+    font-family: MapoMaponaru;
+    font-size: 0.7em;
+    font-style: italic;
+}
+.container {
+    width: 100%;
+}
+.container-20 .container {
+    width: auto;
+    margin: 40px 0px;
+    padding: 0px 60px 0px 10px;
+    text-align: center;
+}
+.container-20 .container img {
+    display: inline-block;
+    width: 20%;
+    padding: 10px 15px;
+}
+.footer {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.footer h1 {
+    margin: 0px;
+    padding: 30px 0px;
+    color: #E50914;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+}
