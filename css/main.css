@@ -10,20 +10,9 @@
     font-weight: normal;
     font-style: normal;
 }
-body {
-    margin: 0px;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-.section-basic {
-    width: 100%;
-}
-.article-basic {
-    width: 100%;
-}
 .article-basic h2 {
     margin: 0px 70px;
-    padding: 40px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
 }
 .article-basic .container-80 {
     display: inline-block;
@@ -37,6 +26,8 @@ body {
 }
 .imgDiv {
     margin: 0px 60px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 .imgDiv img {
     padding: 0px 10px;
@@ -61,9 +52,6 @@ body {
     font-size: 0.7em;
     font-style: italic;
 }
-.container {
-    width: 100%;
-}
 .container-20 .container {
     width: auto;
     margin: 40px 0px;
@@ -74,16 +62,4 @@ body {
     display: inline-block;
     width: 20%;
     padding: 10px 15px;
-}
-.footer {
-    width: 100%;
-    background-color: black;
-    text-align: center;
-}
-.footer h1 {
-    margin: 0px;
-    padding: 30px 0px;
-    color: #E50914;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 3em;
 }

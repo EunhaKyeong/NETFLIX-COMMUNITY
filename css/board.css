@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'HSBombaram3_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.1/HSBombaram3_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.board-title {
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: HSBombaram3_Regular;
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.7);
+}
