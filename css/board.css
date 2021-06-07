@@ -13,3 +13,11 @@
     font-size: 3em;
     color: rgba(0, 0, 0, 0.7);
 }
+
+.table {
+    text-align: center;
+}
+.table tbody th{
+    font-family: SLEIGothicTTF;
+    font-weight: normal;
+}
