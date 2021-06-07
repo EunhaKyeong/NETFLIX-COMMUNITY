@@ -4,6 +4,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .board-title {
     margin: 0px;
@@ -14,10 +20,63 @@
     color: rgba(0, 0, 0, 0.7);
 }
 
+.col-auto {
+    margin: auto 0;
+}
+
 .table {
     text-align: center;
 }
 .table tbody th{
     font-family: SLEIGothicTTF;
     font-weight: normal;
+}
+
+#title-col {
+    text-align: left;
+    font-family: SLEIGothicTTF;
+    font-size: 2em;
+}
+
+.writing-form {
+    font-family: 'RIDIBatang';
+    font-size: 1.2em;
+}
+.writing-row-default {
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.writing-row-noboard {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.col-bold {
+    font-weight: bold;
+}
+.col-input {
+    text-align: left;
+}
+.col-input input[type=text] {
+    width: 100%;
+    border: none;
+}
+.col-input input[type=file] {
+    width: 100%;
+    border: none;
+}
+.col-input textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+.btn-complete {
+    background: #E50914;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-family: SLEIGothicTTF;
+    color: white;
 }

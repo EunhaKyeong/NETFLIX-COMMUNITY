@@ -72,7 +72,7 @@ body {
 .search-icon:hover {
     cursor: pointer;
 }
-input[type=text] {
+.search {
     width: 250px;
     padding: 10px 10px 10px 30px;
     background-color: #f1f3f5;
@@ -88,6 +88,8 @@ input[type=text]:focus {
 }
 .section-basic {
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .article-basic {
     width: 100%;
@@ -108,7 +110,7 @@ input[type=text]:focus {
     font-size: 3em;
 }
 .container {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
