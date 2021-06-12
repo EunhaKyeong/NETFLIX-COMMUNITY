@@ -43,10 +43,10 @@
                         제목
                     </div>
                     <div class="col col-input">
-                        <input type="text" placeholder="제목을 입력하세요.">
+                        <input type="text" name="title" placeholder="제목을 입력하세요.">
                     </div>
                     <div class="col-2 col-bold">
-                        <input class="form-check-input" type="checkbox" value="" id="spoilerCheck">
+                        <input class="form-check-input" type="checkbox" name="spoiler" value="0" id="spoilerCheck">
                         <label class="form-check-label" for="spoilerCheck">
                           스포있음
                         </label>
@@ -57,7 +57,7 @@
                         사진
                     </div>
                     <div class="col col-input">
-                        <input class="form-control form-control-sm" id="formFileSm" type="file">
+                        <input class="form-control form-control-sm" id="formFileSm" type="file" name="image">
                     </div>
                 </div>
                 <div class="row writing-row-default">
@@ -65,19 +65,19 @@
                         내용
                     </div>
                     <div class="col col-input">
-                        <textarea placeholder="내용을 입력하세요."></textarea>
+                        <textarea placeholder="내용을 입력하세요." name="content"></textarea>
                     </div>
                 </div>
             </form>
         </article>
         <article class="container">
-            <button type="button" class="btn btn-complete">작성 완료</button>
+            <button type="button" class="btn btn-write">작성 완료</button>
         </article>
     </section>
     <footer class="footer">
         <h1>NETFLIX COMMUNITY</h1>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script src="../js/write.js"></script>
+    <script src="../js/writing.js"></script>
 </body>
 </html>

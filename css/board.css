@@ -10,6 +10,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Independence_hall';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Independence_hall.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .board-title {
     margin: 0px;
@@ -30,6 +36,13 @@
 .table tbody th{
     font-family: SLEIGothicTTF;
     font-weight: normal;
+}
+.table tbody td{
+    font-family: SLEIGothicTTF;
+    font-weight: normal;
+}
+.table tbody .td-title:hover{
+    cursor: pointer;
 }
 
 #title-col {
@@ -72,11 +85,32 @@
     height: 200px;
     border: none;
 }
-.btn-complete {
+.btn-write {
     background: #E50914;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
     font-family: SLEIGothicTTF;
     color: white;
+}
+.container.content-container {
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: Independence_hall;
+}
+.row.comment-row {
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #E7E7E7;
+    font-family: 'Independence_hall';
+}
+.comment {
+    margin: 0px;
+    padding: 15px;
+    text-align: left;
 }
